@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击特效：当用户按下[按钮]时的特效-->
+    <item android:state_pressed="true">
+        <shape>
+            <!--
+            corners:圆角，radius-圆角半径
+            solid：背景填充颜色
+            -->
+            <solid android:color="#d8d8d8"/>
+        </shape>
+    </item>
+    <!--点击特效：当用户没按下[按钮]时的特效-->
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="#ffffff"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+      <LinearLayout
+          android:layout_marginTop="@dimen/x140"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/x55"
+          android:focusable="true"
+          android:focusableInTouchMode="true"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_marginRight="@dimen/x45"
+                android:layout_marginLeft="@dimen/x45"
+                android:background="@drawable/linearlayout_border"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x35">
+                  <EditText
+                      android:inputType="number"
+                      android:id="@+id/et_username"
+                      android:textAlignment="center"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@null"
+                      android:hint="请输入员工号"
+                      android:singleLine="true"
+                      android:text=""
+                      android:textColor="#999999"
+                      android:textColorHint="#999999"
+                      android:textSize="14dp" />
+
+            </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/x55"
+          android:focusable="true"
+          android:focusableInTouchMode="true"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_marginRight="@dimen/x45"
+                android:layout_marginLeft="@dimen/x45"
+                android:background="@drawable/linearlayout_border"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x35">
+                  <EditText
+                      android:id="@+id/et_password"
+                      android:textAlignment="center"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@null"
+                      android:hint="请输入密码"
+                      android:inputType="numberPassword"
+                      android:singleLine="true"
+                      android:text=""
+                      android:textColor="#999999"
+                      android:textColorHint="#999999"
+                      android:textSize="14dp" />
+
+            </LinearLayout>
+
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/btn_login"
+          android:layout_marginTop="@dimen/x20"
+          android:layout_marginRight="@dimen/x45"
+          android:layout_marginLeft="@dimen/x45"
+          android:textColor="#ffffff"
+          android:text="登录"
+          android:background="@drawable/button_select_bg"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/x40" />
+
+</LinearLayout>

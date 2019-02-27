@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/oil_merchant_circle_bg"
+    android:clickable="true"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginRight="@dimen/x20"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_marginLeft="@dimen/x20"
+        android:background="@drawable/icon_oil_merchant"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/x50" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_marginBottom="@dimen/x20"
+        android:layout_marginTop="@dimen/x15"
+        android:layout_gravity="center"
+        android:textSize="@dimen/x15"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="1号油机"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

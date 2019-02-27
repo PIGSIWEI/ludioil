@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical" >
+
+        <!-- Title -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x45" >
+            <ImageView
+                android:id="@+id/umeng_wifi_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x30"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x10"
+                android:src="@drawable/icon_land_oil" />
+
+
+        </RelativeLayout>
+
+        <!-- split -->
+
+        <View
+            android:layout_width="fill_parent"
+           	android:layout_height="@dimen/x1"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:background="#d8d8d8" />
+        <!-- Content -->
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/x10"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView 
+                    android:id="@+id/tv_update_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x16"
+                    />
+                
+                <TextView 
+                    android:id="@+id/tv_update_msg_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/x16"
+                    android:layout_marginTop="@dimen/x10"
+                    android:textColor="@color/black" 
+                    />
+                
+                <TextView
+                    android:id="@+id/tv_update_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/x60"
+                    android:textSize="@dimen/x16"
+                    android:lineSpacingExtra="@dimen/x3"
+                    android:textColor="@color/black" 
+                    />
+            </LinearLayout>
+        </ScrollView>
+        
+        <!-- Ignore CheckBox -->
+
+        <!-- OK&Cancel Button -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content" >
+
+
+            
+            <Button
+                android:id="@+id/btn_update_id_ok"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/x10"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_marginBottom="@dimen/x20"
+                android:layout_height="@dimen/x40"
+                android:layout_weight="1"
+                android:textSize="@dimen/x16"
+                android:background="@drawable/dialog_ok_btn_bg"
+                android:text="立即更新"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

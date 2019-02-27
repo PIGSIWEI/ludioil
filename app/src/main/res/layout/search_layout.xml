@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout"></include>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="油枪号"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="金额"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="张数"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="@dimen/x20"
+        android:background="#888888"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight="1"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <ImageView
+        android:background="#888888"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_gravity="center"
+            android:id="@+id/tv_all_oil_gun"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="总计"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x16" />
+
+        <TextView
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:id="@+id/tv_all_oil_money"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18" />
+
+        <TextView
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:id="@+id/tv_all_oil_count"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

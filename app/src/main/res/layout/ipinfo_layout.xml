@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_layout">
+
+    </include>
+
+    <TextView
+        android:layout_marginLeft="@dimen/x15"
+        android:layout_marginTop="@dimen/x15"
+        android:textSize="@dimen/x18"
+        android:text="当前配置IP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_ipinfo"
+        android:layout_marginLeft="@dimen/x15"
+        android:layout_marginTop="@dimen/x10"
+        android:textSize="@dimen/x18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="@dimen/x15"
+        android:layout_marginTop="@dimen/x15"
+        android:textSize="@dimen/x18"
+        android:text="当前油站ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_station_id"
+        android:layout_marginLeft="@dimen/x15"
+        android:layout_marginTop="@dimen/x10"
+        android:textSize="@dimen/x18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:textSize="@dimen/x16"
+        android:hint="请输入新的的配置IP"
+        android:layout_marginRight="@dimen/x15"
+        android:layout_marginLeft="@dimen/x15"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40" />
+    <EditText
+        android:id="@+id/et_station_id"
+        android:textSize="@dimen/x16"
+        android:hint="请输入新的的油站ID"
+        android:layout_marginRight="@dimen/x15"
+        android:layout_marginLeft="@dimen/x15"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40" />
+
+
+    <Button
+        android:id="@+id/btn_updata"
+        android:textSize="@dimen/x18"
+        android:textColor="@color/white"
+        android:background="@drawable/button_select_bg"
+        android:text="更新"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_marginRight="@dimen/x15"
+        android:layout_marginLeft="@dimen/x15"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40" />
+
+</LinearLayout>

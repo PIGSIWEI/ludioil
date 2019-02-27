@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039645</color>
+    <color name="colorPrimaryDark">#FF03632E</color>
+    <color name="colorAccent">#D81B60</color>
+    
+    <!--land_oil_color-->
+    <color name="land_oil_primary">#039645</color>
+    <color name="land_oil_green">#8ED500</color>
+    <color name="land_oil_yellow">#F3E715</color>
+    <color name="land_oil_tu">#DB7302</color>
+
+    <!--color-->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+</resources>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_settings"
+        android:title="修改密码">
+    </item>
+    <item
+        android:id="@+id/action_info"
+        android:title="修改局域网配置">
+    </item>
+    <item
+        android:id="@+id/action_test"
+        android:title="中控连接测试">
+    </item>
+    <item
+        android:id="@+id/action_jiaoban"
+        android:title="交班操作">
+    </item>
+    <item
+        android:id="@+id/action_hexiao"
+        android:title="奖品核销">
+    </item>
+    <item
+        android:id="@+id/action_exit"
+        android:title="退出登录"
+        >
+    </item>
+</menu>
